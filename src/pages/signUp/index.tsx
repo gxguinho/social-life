@@ -1,17 +1,17 @@
 import Link from "next/link";
-import styles from "../styles/SignUp.module.scss";
+import styles from "./styles.module.scss";
 
-export default function SignIn() {
+export default function SignUp() {
   return (
     <main className={styles.container}>
       <form>
         <input type="text" />
         <input type="text" />
-        <button>Sign In</button>
+        <button>Sign Up</button>
 
         <hr />
 
-        <Link href="/signUp">Sign Up</Link>
+        <Link href="/">Sign In</Link>
       </form>
     </main>
   );
