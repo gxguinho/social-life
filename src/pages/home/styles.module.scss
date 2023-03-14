@@ -1,0 +1,21 @@
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  main {
+    display: flex;
+    width: 100%;
+    max-width: 1480px;
+
+    margin: 12px auto;
+    padding: 0 12px;
+  }
+}
+
+.content {
+  flex: 1;
+
+  background-color: red;
+}
