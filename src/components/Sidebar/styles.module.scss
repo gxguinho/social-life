@@ -1,6 +1,9 @@
 .container {
   width: 16rem;
   margin-right: 8px;
+  position: fixed;
+  height: 100%;
+  background-color: #140e24;
 
   section {
     display: flex;
